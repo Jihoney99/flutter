@@ -26,6 +26,18 @@ class _homePageState extends State<homePage> {
     String state = dataConfigure.state;
 
     return Scaffold(
+      appBar: PreferredSize(
+          preferredSize: const Size.fromHeight(60),
+          child: AppBar(
+            backgroundColor: Colors.blueGrey,
+            title: const Text(
+              '확률 게임',
+              style: TextStyle(fontSize: 60),
+            ),
+            elevation: 5,
+            iconTheme: const IconThemeData(color: Colors.cyan),
+            centerTitle: true,
+          )),
       body: Container(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

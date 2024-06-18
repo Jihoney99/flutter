@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:prac_02/Config/dataConfigProvider.dart';
-import 'package:prac_02/Config/dataConfigProvider.dart';
 import 'package:prac_02/Config/singleTon.dart';
 import 'package:prac_02/homePage.dart';
 import 'package:provider/provider.dart';
