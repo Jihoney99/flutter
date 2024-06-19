@@ -33,13 +33,13 @@ class MyApp extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const Text(
-                            'Hey, YuJin',
+                            'Hi, Admin',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 28,
                                 fontWeight: FontWeight.w800),
                           ),
-                          Text('Lov U',
+                          Text('Hello World',
                               style: TextStyle(
                                   color: Colors.white.withOpacity(0.4),
                                   fontSize: 15))
